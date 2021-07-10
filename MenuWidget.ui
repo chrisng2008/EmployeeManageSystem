@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuWidgetClass</class>
+ <widget class="QWidget" name="MenuWidgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MenuWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>401</width>
+     <height>461</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>91</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>341</y>
+      <width>73</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#exitButton:!hover
+{
+border-radius:10px;
+background-color:rgb(255,255,143);
+}
+#exitButton:hover
+{
+border-radius:10px;
+background-color:rgb(255,100,143);
+}</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="modifyButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>155</y>
+      <width>73</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#modifyButton:!hover
+{
+border-radius:10px;
+background-color:rgb(255,255,143);
+}
+#modifyButton:hover
+{
+border-radius:10px;
+background-color:rgb(255,100,143);
+}</string>
+    </property>
+    <property name="text">
+     <string>修改</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>42</y>
+      <width>73</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#addButton:!hover
+{
+border-radius:10px;
+background-color:rgb(255,255,143);
+}
+#addButton:hover
+{
+border-radius:10px;
+background-color:rgb(255,100,143);
+}</string>
+    </property>
+    <property name="text">
+     <string>添加</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculateButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>217</y>
+      <width>73</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#calculateButton:!hover
+{
+border-radius:10px;
+background-color:rgb(255,255,143);
+}
+#calculateButton:hover
+{
+border-radius:10px;
+background-color:rgb(255,100,143);
+}</string>
+    </property>
+    <property name="text">
+     <string>计算</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>93</y>
+      <width>73</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#searchButton:!hover
+{
+border-radius:10px;
+background-color:rgb(255,255,143);
+}
+#searchButton:hover
+{
+border-radius:10px;
+background-color:rgb(255,100,143);
+}</string>
+    </property>
+    <property name="text">
+     <string>查找</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reflashButton">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>279</y>
+      <width>73</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#reflashButton:!hover
+{
+border-radius:10px;
+background-color:rgb(255,255,143);
+}
+#reflashButton:hover
+{
+border-radius:10px;
+background-color:rgb(255,100,143);
+}</string>
+    </property>
+    <property name="text">
+     <string>刷新</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MenuWidget.qrc"/>
+ </resources>
+ <connections/>
+</ui>
